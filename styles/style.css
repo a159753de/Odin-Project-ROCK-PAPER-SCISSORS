@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #a3d1d1;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  margin: 2.5rem;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+section.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5rem;
+  margin: 5rem 10rem;
+}
+
+section.btns button {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+div.roundWinner {
+  text-align: center;
+  padding: 5rem 10rem;
+  font-size: 2.5rem;
+}
+
+div.finalWinner {
+  text-align: center;
+  padding: 5rem 10rem;
+  font-size: 2.5rem;
+}
+
+div.score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */
